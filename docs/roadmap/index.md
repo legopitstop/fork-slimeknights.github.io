@@ -72,10 +72,10 @@ Currently, plate and travelers have a little bit too much overlap when it comes 
   * See [Jeweled Hide](#jeweled-hide) for the harvest replacement.
   * For migration, the material will still exist on 1.20, just be hidden and uncraftable.
 * Slotless defense slot:
-  * Using armor trim on armor or shield will grant it +1 defense slot alongside the cosmetic.
-  * This modifier also now works on shields and travelers goggles. It was chosen to not work on current ancient tools.
+  * Using armor trim on armor will grant it +1 defense slot alongside the cosmetic.
+  * This modifier also now works travelers goggles. It does not work on shields as we feel they have enough defense slots.
   * This change gives plate a needed boost to make better-than-vanilla protection possible pre-end.
-  * This also means that travelers gear in this update has a net gain of 0 defense slots (lost 1 from ancient hide, gained one from trimmed).
+  * This also means that travelers gear in this update has a net gain of 0 defense slots (lost 1 from ancient hide, gained one from trimmed). Travelers shields get a net loss of 1 making them more distinct from plate.
 
 Results of this change:
 
@@ -84,11 +84,11 @@ Results of this change:
 | Travelers        | 5 | 2 | 1 | 1 | 1 |
 | Plate            | 7 | 3 | 2 | 1 | 1 |
 | Slime            | 2 | 0 | 0 | 1 | 1 |
-| Travelers Shield | 4 | 2 | 0 | 1 | 1 |
-| Plate Shield     | 6 | 3 | 1 | 1 | 1 |
-| Battle Sign      | 5 | 3 | 1 | 0 | 1 |
+| Travelers Shield | 3 | 2 | 0 | 0 | 1 |
+| Plate Shield     | 5 | 3 | 1 | 0 | 1 |
+| Battle Sign      | 6 | 3 | 1 | 0 | 2 |
 | Earth Staff      | 4 | 3 | 0 | 0 | 1 |
-| Melting Pan      | 3 | 1 | 1 | 0 | 1 |
+| Melting Pan      | 4 | 1 | 1 | 0 | 2 |
 
 ### Turtle Maille
 
@@ -111,6 +111,14 @@ Results of this change:
   * Ichor: fire damage, fiery
   * Enderslime: magic damage, enderclearance
   * Magma: explosion damage, explosive
+
+### Banner
+
+* New slotless cosmetic modifier for plate shields.
+* Apply using a banner in the tinker station or anvil.
+* Copies the patterns using shield style.
+* Held form should automatically support modded banner patterns. GUI form unfortunately is limited to vanilla patterns unless a resource pack adds more textures.
+* Addons can add banner to their own shields, though will need to provide the proper textures.
 
 
 ## 1.21 Changes
