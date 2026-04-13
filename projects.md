@@ -54,7 +54,7 @@ These mods are made by a member of SlimeKnights, but the projects are not part o
 
 <div class="project-list">
     {% include project.html
-      name="simple-gravel-ores" title="Simple Gravel Ores" latest="1.21.11"
+      name="simple-gravel-ores" title="Simple Gravel Ores" latest="26.1"
       author="KnightMiner" github="GravelOres"
       description="Simple Gravel Ores brings back the classic gravel ores from Tinkers' Construct 1 into modern versions, with configurability to support any mod's ores."
     %}
